@@ -1,4 +1,4 @@
-Algoritmo Ejercicio_20
+Algoritmo Ejercicio_20_y_Ejercicio_12
 	
 	//Calcula la potencia solicitando la base y el exponente
 	
