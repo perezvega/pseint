@@ -34,7 +34,11 @@ Algoritmo sin_titulo
 	
 	Escribir "Ha introducido ",i," números"
 	Escribir "La suma total es ",sum
-	media<-trunc(sum/i)
+	
+	Si i>0 Entonces
+		media<-trunc(sum/i)
+	FinSi
+	
 	Escribir "La media aritmética es ",media
 		
 FinAlgoritmo

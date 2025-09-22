@@ -2,28 +2,28 @@ Algoritmo Ejercicio_23
 	// Introducir el año de nacimiento de tres personas y calcular quiénes 
 	// son de la misma quinta
 	
-	Definir pedro,alicia,carla Como Entero
+	Definir a,b,c Como Entero
 	
-	Escribir "Introduce la edad de Pedro: "
-	leer pedro
+	Escribir "Introduce la edad de a: "
+	leer a
 	
-	Escribir "Introduce la edad de Alicia: "
-	leer alicia
+	Escribir "Introduce la edad de b: "
+	leer b
 	
-	Escribir "Introduce la edad de Carla: "
-	leer carla
+	Escribir "Introduce la edad de c: "
+	leer c
 	
-	Si pedro=alicia y pedro=carla Entonces
+	Si a=b y a=c Entonces
 		Escribir "Los tres son de la misma quinta."
 	SiNo
-		Si pedro=alicia y pedro<>carla Entonces
-			Escribir "Pedro y Alicia son de la misma quinta, pero Carla no."
+		Si a=b y a<>c Entonces
+			Escribir "a y b son de la misma quinta, pero c no."
 		SiNo
-			Si pedro=carla y pedro<>alicia Entonces
-				Escribir "Pedro y Carla son de la misma quinta, pero Alicia no."
+			Si a=c y a<>b Entonces
+				Escribir "a y c son de la misma quinta, pero b no."
 			SiNo
-				Si carla=alicia y pedro<>alicia
-					Escribir "Alicia y Carla son de la misma quinta, pero Pedro no."
+				Si c=b y a<>b
+					Escribir "b y c son de la misma quinta, pero a no."
 				SiNo
 					Escribir "Los tres han nacido en años distintos"
 				FinSi

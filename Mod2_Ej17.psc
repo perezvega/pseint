@@ -11,7 +11,7 @@ Algoritmo Ejercicio_17
 				horas<-horas+1			
 			FinSi
 		SiNo
-			minutos<-minutos+1
+			min<-min+1
 		FinSi
 	SiNo
 		seg<-seg+1
