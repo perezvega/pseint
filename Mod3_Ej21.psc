@@ -30,7 +30,7 @@ Algoritmo sin_titulo
 			Escribir "El número es mayor de 10000. Hasta luego, Lucas."
 			parar<-Verdadero			
 		FinSi		
-	Hasta Que parar=Verdadero
+	Hasta Que parar
 	
 	Escribir "Ha introducido ",i," números"
 	Escribir "La suma total es ",sum
